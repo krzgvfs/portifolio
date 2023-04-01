@@ -10,44 +10,49 @@
 </head>
 
 <body>
+    <!-- NavBar -->
     <nav class="navbar">
         <a href="#"><img id="logo" src="./img/logo-nav.png"></a>
         <a href="#"><p>About</p></a>
-    </nav>
+    </nav> <!-- End NavBar -->
 
-    <section class="section-primary">
-        <article id="title-primary">
-            <h1>Marcos André</h1>
-            <p>Estudante de ciencia da computação, analista de dados.</p>
+    <section class="container-primary-section">
+        <article id="article-title">
+            <h1><b>Marcos André</b></h1>
+            <p>Bacharel em Ciência da Computação, Analista de Dados/Desenvolvedor BackEnd.</p>
         </article>
 
-        <article id="article-primary">
-            <div class="article-primary-left">
-                <h1 id="lista-title">Contato</h1>
-                <li id="lista-contatos">
-                    <ul id="contatos-item">LinkedIn</ul>
-                    <ul id="contatos-item">YouTube</ul>
-                    <ul id="contatos-item">GitHub</ul>
-                    <ul id="contatos-item">Medium</ul>
-                    <ul id="contatos-item">Twiter</ul>
-                </li>
+        <article class="article-primary-section">
+            <div id="article-left">
+                <h3>Contato</h3>
+                <ul id="list-links">
+                    <a href="#"><li id="contatos-item">LinkedIn</li></a>
+                    <a href="#"><li id="contatos-item">YouTube</li></a>
+                    <a href="#"><li id="contatos-item">GitHub</li></a>
+                    <a href="#"><li id="contatos-item">Medium</li></a>
+                    <a href="#"><li id="contatos-item">Reddit</li></a>
+                </ul>
             </div>
         </article>
 
-        <article id="article-primary">
-            <img id="logo01" src="./img/logo-section-initial.webp" alt="Corpo">
+        <article class="article-primary-section">
+            <div id="article-right">
+                <img id="banner" src="./img/logo-section-initial.webp" alt="Corpo">
+            </div>
         </article>
     </section><!-- Corpo da inicial da página-->
 
-    <section class="section-interativo">
-        <nav>
-            <ul id="section-interativo-menu">
-                <a href="#"><li>Python</li></a>
-                <a href="#"><li>Dart</li></a>
-                <a href="#"><li>Java Script</li></a>
-                <a href="#"><li>C Sharp</li></a>
-                <a href="#"><li>Assembly</li></a>
-                <a href="#"><li>Projetos</li></a>
+    <section class="container-secundary-section">
+        <div id="title">
+            <h3>Meus Super Poderes</h3>
+        </div>
+        <nav id="container-menu">
+            <ul>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Python"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Java Script"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="C#"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Assembly"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Projetos"></a></li>
             </ul>
         </nav> <!--Menu Left-->
 
@@ -55,17 +60,20 @@
             <img id="avatar" src="./img/logo-section-interactive.png" title="Avatar interativo">
         </article>
 
-        <nav>
-            <ul id="section-interativo-menu">
-                <a href="#"><li>Data Science</li></a>
-                <a href="#"><li>Linux</li></a>
-                <a href="#"><li>Flutter</li></a>
-                <a href="#"><li>Games</li></a>
-                <a href="#"><li>Redes</li></a>
-                <a href="#"><li>Sistemas Operacionais</li></a>
+        <nav id="container-menu">
+            <ul>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Data Science"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Linux"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Flutter"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Games"></a></li>
+                <li id="logo-list"><a  href="#"><img src="./img/prototipo.png" alt="Redes"></a></li>
             </ul>
         </nav> <!--Menu Right -->
     </section><!-- Corpo interativo-->
+
+    <section class="container-tercery-section">
+        Aqui ficará o Simulador de Sistema Operacional em JS
+    </section>
 
     <footer class="footer">
         Rodapé

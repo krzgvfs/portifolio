@@ -1,3 +1,6 @@
+/*
+    Reset CSS default values
+*/
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -17,22 +20,24 @@ img {
     max-width: 100%;
     height: auto;
 }
+a {
+    text-decoration: none
+}
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
-/* Corpo */
 body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: 'VT323', monospace;
 }
 
 /* NavBar */
 .navbar{
-    background-color: rgb(177, 210, 211);
+    background-color: rgb(143, 235, 181);
     height: 60px;
     width: 100%;
     margin: 5px;
@@ -42,34 +47,19 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} 
 
 #logo{
     width: 32px;
 }
-/* ------------ END NavBar */
+/* END NavBar */
 
 
-/* Corpo Inicial*/
 
-#title-primary{
-    background-color: blueviolet;
-    height: 150px;
-    width: 86%;
-    margin: 5px;
-}
-
-#title-primary, h1{
-    margin-top: 20px;
-    text-align: center;
-    padding: 10px;
-    font-weight: 500;
-}
-
-
-.section-primary{
+/* Primary Section*/
+.container-primary-section{
     background-color: bisque;
-    height: 580px;
+    height: 700px;
     width: 100%;
     margin: 5px;
 
@@ -80,11 +70,28 @@ body{
     align-items: center;
 }
 
-#article-primary{
-    background-color: rgb(131, 226, 243);
-    height: 300px;
+#article-title{
+    background-color: rgb(203, 248, 129);
+    height: 130px;
+    width: 88%;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+#article-title h1{
+    font-size: 30px;
+}
+
+#article-title p{
+    padding: 8px;
+}
+
+.article-primary-section{
+    background-color: rgb(90, 199, 126);
+    height: 380px;
     width: 40%;
-    margin: 50px;
+    margin: 10px 50px 40px;
 
 
     display: flex;
@@ -92,32 +99,69 @@ body{
     align-items: center;
 }
 
-#article-primary-left, h1{
+#article-left{
     text-align: center;
 }
 
-#article-primary-left, ul, li {
-    display: flex;
-    padding: 15px;
-    
-}
-
-#logo01 {
+#article-right img{
     width: 240px;
 }
 
-/* Corpo interativo */
-.section-interativo{
+#list-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#contatos-item {
+    margin-left: 20px;
+}
+/* End Primary Section*/
+
+
+/* Corpo Skills */
+.container-secundary-section{
     background-color: rgb(233, 167, 207);
     height: 700px;
     width: 100%;
     margin: 5px;
 
     display: flex;
-    flex-direction: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
     align-items: center;
+}
+
+#title{
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+}
+
+#title h3{
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#container-menu{
+    text-align: center;
+
+    height: 450px;
+    width: 80px;
+    margin-bottom: 80px;
+}
+
+#container-menu ul li{
+    padding: 2px;
+    margin: 30px;
+}
+
+#logo-list{
+    width: 50px;
 }
 
 #section-interativo-menu{
@@ -125,10 +169,28 @@ body{
     text-align: left;
 }
 
-
 #avatar {
-    width: 180px;
+    width: 170px;
+    
 }
+/* Corpo Skills */
+
+/* Corpo Interatividade*/
+.container-tercery-section{
+    background-color: rgb(228, 154, 85);
+    height: 700px;
+    width: 100%;
+    margin: 5px;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Corpo Interatividade*/
+
 
 
 /*Rodapé*/
